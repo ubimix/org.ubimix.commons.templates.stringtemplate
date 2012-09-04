@@ -1,3 +1,5 @@
 #-----------------------------------------------------------------
 # Use this file to add customized Bnd instructions for the bundle
 #-----------------------------------------------------------------
+Import-Package: org.ubimix.commons.*,org.stringtemplate.*;version="4.0.0",org.antlr.runtime.*;version="3.3"
+Export-Package: org.ubimix.commons.templates.stringtemplate

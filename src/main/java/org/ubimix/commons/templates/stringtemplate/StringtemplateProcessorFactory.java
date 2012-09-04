@@ -8,14 +8,14 @@
  * Contributors:
  *     Cognium Systems SA - initial API and implementation
  *******************************************************************************/
-package org.webreformatter.commons.templates.stringtemplate;
+package org.ubimix.commons.templates.stringtemplate;
 
 import java.util.Properties;
 
-import org.webreformatter.commons.templates.ITemplateProcessor;
-import org.webreformatter.commons.templates.ITemplateProcessorFactory;
-import org.webreformatter.commons.templates.ITemplateProvider;
-import org.webreformatter.commons.templates.TemplateException;
+import org.ubimix.commons.templates.ITemplateProcessor;
+import org.ubimix.commons.templates.ITemplateProcessorFactory;
+import org.ubimix.commons.templates.ITemplateProvider;
+import org.ubimix.commons.templates.TemplateException;
 
 /**
  * The factory used to create {@link StringtemplateProcessor} instances.

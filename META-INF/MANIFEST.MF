@@ -1,23 +1,14 @@
 Manifest-Version: 1.0
-Export-Package: org.webreformatter.commons.templates.stringtemplate;us
- es:="org.webreformatter.commons.templates";version="0.1.5.SNAPSHOT"
-Private-Package: antlr,antlr.ASdebug,antlr.actions.cpp,antlr.actions.c
- sharp,antlr.actions.java,antlr.actions.python,antlr.build,antlr.colle
- ctions,antlr.collections.impl,antlr.debug,antlr.debug.misc,antlr.prep
- rocessor,org.antlr.stringtemplate,org.antlr.stringtemplate.language,o
- rg.antlr.stringtemplate.misc,org.antlr.stringtemplate.test
 Bundle-ClassPath: .
-Bundle-Version: 0.1.5.SNAPSHOT
-Bundle-Name: org.webreformatter.commons.templates.stringtemplate
+Bundle-Version: 1.2.1
+Bundle-Name: org.ubimix.commons.templates.stringtemplate
 Bundle-ManifestVersion: 2
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0
-Bundle-Description: WebReformatter
-Import-Package: javax.swing;resolution:=optional,
- javax.swing.event;resolution:=optional,
- javax.swing.tree;resolution:=optional,
- junit.framework;resolution:=optional,
- org.webreformatter.commons.templates;version="0.1.4.SNAPSHOT",
- org.webreformatter.commons.templates.providers;version="0.1.5.SNAPSHOT"
-Bundle-SymbolicName: org.webreformatter.commons.templates.stringtempla
- te
-
+Bundle-Description: StringTemplate-based implementation of the Common Template API
+Bundle-SymbolicName: org.ubimix.commons.templates.stringtemplate
+Import-Package: org.antlr.runtime;resolution:=optional,
+ org.stringtemplate.v4;resolution:=optional,
+ org.stringtemplate.v4.compiler;resolution:=optional,
+ org.stringtemplate.v4.misc;resolution:=optional,
+ org.ubimix.commons.templates
+Export-Package: org.ubimix.commons.templates.stringtemplate
